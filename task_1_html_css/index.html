@@ -1,24 +1,338 @@
 <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://acdn.tinkoff.ru/params/common_front/resourses/icons/favicon-32x32.png" />
+            rel="icon"
+            type="image/svg+xml"
+            href="https://acdn.tinkoff.ru/params/common_front/resourses/icons/favicon-32x32.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
-      rel="stylesheet" />
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+            rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тинькофф Образование</title>
-  </head>
-  <body>
-    <div class="logo"></div>
-    <div class="login-icon"></div>
-    <img src="/assets/images/frontend.png" alt="Фронтенд технологии" />
-    <h1>Frontend-разработчик</h1>
-    <script type="module" src="./main.js"></script>
-  </body>
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+
+                <div class="header__logo logo">
+                    <div class="logo__image">
+                        <img src="img\header\Logo.svg" alt="logo">
+                    </div>
+                    <div class="logo__text">
+                        <img src="img\header\logo-text.svg" alt="text">
+                    </div>
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item_underline">
+                            <div class="menu__link__shadow">
+                                <a class="menu__link menu__link_underline" href="#">
+                                    <!--                                    <img src="img\header\Master.svg" alt="underline">-->
+                                    Финтех курсы
+                                </a>
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Стажировки
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Мероприятия и партнерства
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__entry entry">
+                    <div class="entry__text">
+                        Войти
+                    </div>
+                    <div class="entry__image">
+                        <img src="img\header\Arrow.svg" alt="arrow">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="page__advertisingBlock advertisingBlock">
+            <div class="container">
+                <div class="advertisingBlock__body">
+                    <h2 class="advertisingBlock__title titleH2">
+                        Frontend-разработчик
+                    </h2>
+                    <h4 class="advertisingBlock__subtitle">
+                        Трехмесячный бесплатный учебный курс от Финтеха, который можно проходить из любой точки России
+                    </h4>
+                    <form class="advertisingBlock__form" action="#">
+                        <button class="advertisingBlock__btn">
+                            Подробнее
+                        </button>
+                    </form>
+                    <div class="advertisingBlock__image">
+                        <img src="img\FrontendDevelopment\image.png" alt="advertising">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page__potentialListeners potentialListeners">
+            <div class="container">
+                <h2 class="potentialListeners__title titleH2">
+                    Кому подойдет курс
+                </h2>
+                <div class="potentialListeners__body">
+                    <div class="potentialListeners__image">
+                        <img src="img\potenzialListeners\desktopTilesFourPlusOne 3 1.png" alt="img">
+                    </div>
+                    <div class="potentialListeners__textBlock textBlock">
+                        <div class="textBlock__line">
+                            <div class="textBlock__lineImage textBlock__lineImage_one">
+                                <img src="img\potenzialListeners\line.svg" alt="line">
+                            </div>
+                            <div class="textBlock__lineText">
+                                Вы студент или выпускник технических вузов
+                            </div>
+                        </div>
+                        <div class="textBlock__line">
+                            <div class="textBlock__lineImage textBlock__lineImage_small">
+                                <img src="img\potenzialListeners\line.svg" alt="line">
+                            </div>
+                            <div class="textBlock__lineText">
+                                Хотите научиться создавать интерфейсы
+                            </div>
+                        </div>
+                        <div class="textBlock__line">
+                            <div class="textBlock__lineImage textBlock__lineImage_three">
+                                <img src="img\potenzialListeners\line.svg" alt="line">
+                            </div>
+                            <div class="textBlock__lineText">
+                                Хотите познакомиться с современным JavaScript и его фреймворками
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page__coursePlanBlock coursePlanBlock">
+            <div class="container">
+                <h2 class="coursePlanBlock__title titleH2">
+                    Что вас ждет на курсе
+                </h2>
+                <div class="coursePlanBlock__body">
+                    <div class="coursePlanBlock__item itemPlan">
+                        <h3 class="itemPlan__title titleH3">
+                            Основы разработки
+                        </h3>
+                        <div class="itemPlan__text">
+                            Делимся инструментами, которые позволяют нам создавать <br>веб-продукты для миллионов
+                            клиентов
+                        </div>
+                    </div>
+                    <div class="coursePlanBlock__item itemPlan">
+                        <h3 class="itemPlan__title titleH3">
+                            Доступ к учебным материалам онлайн
+                        </h3>
+                        <div class="itemPlan__text">
+                            Онлайн-курс с лекциями и домашними заданиями. Вы можете его пройти из любой точки России
+                        </div>
+                    </div>
+                    <div class="coursePlanBlock__item itemPlan">
+                        <h3 class="itemPlan__title titleH3">
+                            Возможность попасть в команду
+                        </h3>
+                        <div class="itemPlan__text">
+                            Во время курса участники выполняют много практических заданий. Мы замечаем лучших и
+                            приглашаем их на собеседование
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page__courseData courseData">
+            <div class="container">
+                <h2 class="courseData__title titleH2">
+                    Как строится обучение
+                </h2>
+                <div class="courseData__body">
+                    <div class="courseData__item itemData itemData_one">
+                        <h3 class="itemData__title titleH3">
+                            Онлайн-занятия 1 раз в неделю
+                        </h3>
+                        <div class="itemData__content contentData">
+                            <div class="content__line">
+                                <img class="content__image content__image_one" src="img\potenzialListeners\line.svg"
+                                     alt="line">
+                                <div class="content__text">
+                                    Курс стартует в середине февраля и длится три месяца
+                                </div>
+                            </div>
+                            <div class="content__line">
+                                <img class="content__image content__image_two" src="img\potenzialListeners\line.svg"
+                                     alt="line">
+                                <div class="content__text">
+                                    В неделю будете тратить около 2-3 часов на лекции и столько, сколько сочтете нужным,
+                                    на домашнюю работу
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courseData__item itemData">
+                        <h3 class="itemData__title titleH3">
+                            Интерактив и нетворкинг
+                        </h3>
+                        <div class="itemData__content contentData">
+                            <div class="content__line">
+                                <img class="content__image content__image_three" src="img\potenzialListeners\line.svg"
+                                     alt="line">
+                                <div class="content__text">
+                                    Вы сможете задавать вопросы преподавателям во время лекции в Зуме или в общем чате
+                                </div>
+                            </div>
+                            <div class="content__line">
+                                <img class="content__image content__image_four" src="img\potenzialListeners\line.svg"
+                                     alt="line">
+                                <div class="content__text">
+                                    Обсуждать материалы и домашки вместе с сокурсниками. Это поможет найти новый
+                                    профессиональный круг общения
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page__conditions conditions">
+            <div class="container">
+                <h2 class="conditions__title titleH2">
+                    Бесплатное обучение
+                </h2>
+                <div class="conditions__body">
+                    <div class="conditions__item itemConditions itemConditions_one">
+                        <div class="itemConditions__image">
+                            <img src="img\conditions\img1.svg" alt="img1">
+                        </div>
+                        <h3 class="itemConditions__title titleH3">
+                            Каждый студент проходит тщательный отбор
+                        </h3>
+                        <div class="itemConditions__line lineConditions">
+                            <img class="lineConditions__image" src="img\potenzialListeners\line.svg" alt="line">
+                            <div class="lineConditions__text">
+                                Пройдите экзамен и заполните анкету, которая выполняет функцию портфолио
+                            </div>
+                        </div>
+                        <div class="itemConditions__line lineConditions">
+                            <img class="lineConditions__image" src="img\potenzialListeners\line.svg" alt="line">
+                            <div class="lineConditions__text">
+                                Расскажите подробно о своем опыте: сильное портфолио влияет на решение
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conditions__item itemConditions">
+                        <div class="itemConditions__image">
+                            <img src="img\conditions\img2.svg" alt="img1">
+                        </div>
+                        <h3 class="itemConditions__title titleH3">
+                            Одинаковые условия для всех
+                        </h3>
+                        <div class="itemConditions__line lineConditions">
+                            <img class="lineConditions__image" src="img\potenzialListeners\line.svg" alt="line">
+                            <div class="lineConditions__text">
+                                Чтобы успешно закончить курс, нужно выполнить обязательные домашние задания и защитить
+                                проект
+                            </div>
+                        </div>
+                        <div class="itemConditions__line lineConditions">
+                            <img class="lineConditions__image lineConditions__image_four"
+                                 src="img\potenzialListeners\line.svg" alt="line">
+                            <div class="lineConditions__text">
+                                После обучения выдаем сертификат, подтверждающий,что вы освоили теорию и навыки
+                                веб-разработки
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page__selection selection">
+            <div class="container">
+                <h2 class="selection__title titleH2">
+                    Как попасть на курс
+                </h2>
+                <div class="selection__body">
+                    <div class="selection__item itemSelection">
+                        <div class="itemSelection__icon">
+                            <div class="itemSelection__icon__text">
+                                1
+                            </div>
+                        </div>
+                        <div class="itemSelection__text">
+                            Оставьте заявку онлайн и зарегистрируйтесь на сайте
+                        </div>
+                    </div>
+                    <div class="selection__item itemSelection">
+                        <div class="itemSelection__icon">
+                            <div class="itemSelection__icon__text">
+                                2
+                            </div>
+                        </div>
+                        <div class="itemSelection__text">
+                            Расскажите в анкете, почему хотите изучить веб-разработку
+                        </div>
+                    </div>
+                    <div class="selection__item itemSelection">
+                        <div class="itemSelection__icon">
+                            <div class="itemSelection__icon__text">
+                                3
+                            </div>
+                        </div>
+                        <div class="itemSelection__text">
+                            Пройдите экзамен: решите несколько задач по программированию
+                        </div>
+                    </div>
+                    <div class="selection__item itemSelection">
+                        <div class="itemSelection__icon">
+                            <div class="itemSelection__icon__text">
+                                4
+                            </div>
+                        </div>
+                        <div class="itemSelection__text">
+                            Дождитесь письма об итогах отбора. Начните учиться
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <img class="footer__image" src="img\footer\Rectangle.svg" alt="footerLine">
+            <div class="footer__body">
+                <img class="footer__imageYear" src="img\footer\© 2006–2015, АО «Тин.svg" alt="imageText">
+                <div class="footer__right">
+                    <div class="footer__text">
+                        По вопросам пишите на
+                    </div>
+                    <a class="footer__link" href="https://fintech.tinkoff.ru/study/fintech/">
+                        edu@tinkoff.ru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
 </html>
